@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Inter';
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: rgba(6,16,43,255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(255, 255, 255, 0.901);
+}
+header{
+    /* border:2px solid red; */
+}
+header nav{
+    /* border:2px solid rgb(13, 0, 255); */
+    padding:40px 150px;
+    display:flex;
+    justify-content:space-between;
+
+}
+header nav .logo{
+    /* border:2xp solid black; */
+    width:100px;
+    height:35px;
+    display:flex;
+}
+header nav .logo img{
+    width:50%;
+    height:100%;
+    /* border:2px solid white; */
+}
+header nav .logo h3{
+    /* border:2px solid yellow; */
+    height:80%;
+    margin:auto;
+    padding-right:8px;
+}
+header nav .navtitle{
+    /* border:2px solid red; */
+    width:487px;
+}
+header nav .links{
+    /* border:2px solid blue; */
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+header nav .navtitle .links li{
+    /* border:2px solid green; */
+    padding:0px 30px;
+    list-style:none;
+    
+}
+header nav .navtitle .links li a{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.881);
+}
+section{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: space-between;
+    padding:50px 200px 50px 200px;
+    width:100%;
+}
+section .left{
+    /* border:2px solid black; */
+    width:40%;
+    padding-top:5%;
+}
+section .left .t1{
+    /* border:2px solid yellow; */
+    font-size:65px;
+    font-weight:bolder;
+    line-height:65px;
+}
+section .right{
+    /* border:2px solid red; */
+    width:45%;
+}
+section .right img{
+    /* border:2px solid blue; */
+    width:100%;
+    height:95%;
+}
+section .left .t2{
+    /* border:2px solid blue; */
+    font-weight:bold;
+    letter-spacing:1.5px;
+    padding: 10% 10% 10% 0%;
+    /* letter-spacing: 1px; */
+}
+section .left .t3{
+    /* border:2px solid red; */
+    width:94%;
+    display:flex;
+    justify-content: space-between;
+}
+section .left .t3 button{
+    padding:12px 38px;
+    border-radius:25px;
+    font-size:22px;
+    
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.667);
+    border:2px solid #9894dc;
+    background-color:#9894dc;
+    background-color:rgba(6,16,43,255);
+}
+section .left .t3 button:hover{
+    color:white;
+    background-color:#9894dc;
+}
