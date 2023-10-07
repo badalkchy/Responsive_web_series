@@ -87,11 +87,14 @@ header nav .navtitle .links li a:hover{
     /* border:2px solid red; */
     height:450px;
     width:45%;
+    cursor:default;
 }
+
 #sec1 .right img{
     /* border:2px solid blue; */
     width:90%;
     height:80%;
+    cursor:default;
 }
 #sec1 .left .t2{
     /* border:2px solid blue; */
@@ -285,4 +288,77 @@ header nav .navtitle .links li a:hover{
 #Frame24 .con1 .left .fth button:hover{
     background:#9894dc;
     color:white;
+}
+#Testimonials{
+    border:2px solid red;
+    height:642px;
+    width:100%;
+}
+#Testimonials .first{
+    width:100%;
+    height:117px;
+    border:2px solid white;
+    text-align:center;
+}
+#Testimonials .first .hf{
+    border:1px solid yellow;
+}
+#Testimonials .first .hf a{
+    text-decoration:none;
+    color:rgba(135, 207, 235, 0.848);
+    border:1px solid skyblue;
+}
+#Testimonials .first .hs{
+    border:1px solid red;
+}
+#Testimonials .first .hs a{
+    color:white;
+    text-decoration:none;
+    font-size:40px;
+}
+#Testimonials .second{
+    border:2px solid skyblue;
+    width:80%;
+    height:463px;
+    display:flex;
+    justify-content:space-between;
+    margin:0px auto 0px auto;
+}
+#Testimonials .second .card{
+    width:321px;
+    height:460px;
+    border:2px solid green;
+    position:relative;
+}
+#Testimonials .second .card .back{
+    border:2px solid red;
+    width:100%;
+    height:100px;
+    text-align:center;
+}
+#Testimonials .second .card .text{
+    border:2px solid white;
+    height:357px;
+    width:100%;
+    position:relative;
+    padding-top:120px;
+    border-radius:10px;
+    background-color:#181c3cd6;
+}
+#Testimonials .second .card .back img{
+    position:absolute;
+    top:45px;
+    right: 25%;
+    z-index:1;
+}
+#Testimonials .second .card .text .h{
+    border:1px solid yellow;
+    text-align:center;
+    padding-bottom:20px;
+    font-size:22px;
+}
+#Testimonials .second .card .text .des{
+    border:1px solid lightblue;
+    text-align:center;
+    font-size:22px;
 }
