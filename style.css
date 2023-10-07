@@ -58,47 +58,55 @@ header nav .navtitle .links li a{
     text-decoration:none;
     color:rgba(255, 255, 255, 0.881);
 }
-section{
+header nav .navtitle .links li a:hover{
+    color:#9894dc;
+}
+/* header nav .navtitle .links:hover{
+    border-bottom:2px solid #9894dc;
+} */
+#sec1{
     /* border:2px solid red; */
     display:flex;
     justify-content: space-between;
     padding:50px 200px 50px 200px;
     width:100%;
 }
-section .left{
+#sec1 .left{
     /* border:2px solid black; */
     width:40%;
     padding-top:5%;
+    height:450px;
 }
-section .left .t1{
+#sec1 .left .t1{
     /* border:2px solid yellow; */
     font-size:65px;
     font-weight:bolder;
     line-height:65px;
 }
-section .right{
+#sec1 .right{
     /* border:2px solid red; */
+    height:450px;
     width:45%;
 }
-section .right img{
+#sec1 .right img{
     /* border:2px solid blue; */
-    width:100%;
-    height:95%;
+    width:90%;
+    height:80%;
 }
-section .left .t2{
+#sec1 .left .t2{
     /* border:2px solid blue; */
     font-weight:bold;
     letter-spacing:1.5px;
     padding: 10% 10% 10% 0%;
     /* letter-spacing: 1px; */
 }
-section .left .t3{
+#sec1 .left .t3{
     /* border:2px solid red; */
     width:94%;
     display:flex;
     justify-content: space-between;
 }
-section .left .t3 button{
+#sec1 .left .t3 button{
     padding:12px 38px;
     border-radius:25px;
     font-size:22px;
@@ -109,7 +117,7 @@ section .left .t3 button{
     background-color:#9894dc;
     background-color:rgba(6,16,43,255);
 }
-section .left .t3 button:hover{
+#sec1 .left .t3 button:hover{
     color:white;
     background-color:#9894dc;
 }
