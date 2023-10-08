@@ -216,28 +216,28 @@ header nav .navtitle .links li a:hover{
     color:white;
 }
 #Frame24{
-    border:2px solid rgb(255, 255, 255);
+    /* border:2px solid rgb(255, 255, 255); */
     width:100%;
-    height:585px;
+    height:555px;
 }
 #Frame24 .con1{
-    margin:50px auto 0px auto;
+    margin:30px auto 0px auto;
     width:75%;
     height:460px;
-    border:2px solid red;
+    /* border:2px solid red; */
     display:flex;
     justify-content: space-between;
 }
 #Frame24 .con1 .right{
     width:500.36px;
     height:450px;
-    border:2px solid white;
+    /* border:2px solid white; */
 }
 #Frame24 .con1 .left{
     margin:auto 0px;
     width:459px;
     height:375px;
-    border:2px solid greenyellow;
+    /* border:2px solid greenyellow; */
 }
 #Frame24 .con1 .right img{
     height:100%;
@@ -290,26 +290,26 @@ header nav .navtitle .links li a:hover{
     color:white;
 }
 #Testimonials{
-    border:2px solid red;
-    height:642px;
+    /* border:2px solid red; */
+    height:590px;
     width:100%;
 }
 #Testimonials .first{
     width:100%;
     height:117px;
-    border:2px solid white;
+    /* border:2px solid white; */
     text-align:center;
 }
 #Testimonials .first .hf{
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
 }
 #Testimonials .first .hf a{
     text-decoration:none;
     color:rgba(135, 207, 235, 0.848);
-    border:1px solid skyblue;
+    /* border:1px solid skyblue; */
 }
 #Testimonials .first .hs{
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 #Testimonials .first .hs a{
     color:white;
@@ -317,7 +317,7 @@ header nav .navtitle .links li a:hover{
     font-size:40px;
 }
 #Testimonials .second{
-    border:2px solid skyblue;
+    /* border:2px solid skyblue; */
     width:80%;
     height:463px;
     display:flex;
@@ -327,17 +327,17 @@ header nav .navtitle .links li a:hover{
 #Testimonials .second .card{
     width:321px;
     height:460px;
-    border:2px solid green;
+    /* border:2px solid green; */
     position:relative;
 }
 #Testimonials .second .card .back{
-    border:2px solid red;
+    /* border:2px solid red; */
     width:100%;
     height:100px;
     text-align:center;
 }
 #Testimonials .second .card .text{
-    border:2px solid white;
+    /* border:2px solid white; */
     height:357px;
     width:100%;
     position:relative;
@@ -352,23 +352,23 @@ header nav .navtitle .links li a:hover{
     z-index:1;
 }
 #Testimonials .second .card .text .h{
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     text-align:center;
     padding-bottom:20px;
     font-size:22px;
 }
 #Testimonials .second .card .text .des{
-    border:1px solid lightblue;
+    /* border:1px solid lightblue; */
     text-align:center;
     font-size:22px;
 }
 #CTA{
-    border:2px solid rgb(255, 255, 255);
+    border:2px solid rgba(255, 255, 255, 0);
     width:100%;
-    height:500px;
+    height:495px;
 }
 #CTA .con{
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     width:70%;
     margin: 80px auto 0px auto;
     text-align:center;
@@ -377,20 +377,20 @@ header nav .navtitle .links li a:hover{
     background-image:linear-gradient(to right, rgb(168,204,220), rgb(120,92,228) );
 }
 #CTA .con .f{
-    border:2px solid green;
+    /* border:2px solid green; */
     padding:30px 0px 0px 0px;
     font-size: 22px;
     color:black;
     font-weight:bold;
 }
 #CTA .con .s{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     padding:10px 0px;
     font-size:40px;
     font-weight:bold;
 }
 #CTA .con .t{
-    border:2px solid red;
+    /* border:2px solid red; */
     padding:30px 0px 0px 0px;
     height:140px;
 }
@@ -401,4 +401,87 @@ header nav .navtitle .links li a:hover{
     border:none;
     background-color:black;
     color:white;
+}
+#CTA .con .t button:hover{
+    background-color: rgb(33, 33, 33);
+}
+#foot{
+    /* border:2px solid red; */
+    width:100%;
+    height:260px;
+    display:flex;
+    justify-content:center;
+    margin: 0px 0px;
+}
+#foot .con{
+    /* border:2px solid rgb(85, 85, 241); */
+    width:70%;
+    height:100%;
+    display: flex;
+}
+#foot .slot{
+    /* border:2px solid yellow; */
+    height: 100%;
+    width:170px;
+}
+#foot .slot1{
+    /* border:2px solid red; */
+    width:280px;
+    height:100%;
+}
+#foot .slot .head{
+    /* border:2px solid green; */
+    font-weight:bold;
+    padding-top:20px;
+}
+#foot .slot1 .head{
+    font-weight:bold;
+}
+#foot .slot .des{
+    /* border:2px solid pink; */
+    width:100%;
+    height:70%;
+    padding:20px 0px 0px 0px;
+    line-height:30px;
+    font-size:13px;
+    font-weight:bold;
+}
+#foot .slot1 .m_area{
+    /* border:1px solid pink; */
+    width:100%;
+    height:40%;
+    position:relative;
+    padding-top:5px;
+    margin-top:50px;
+}
+#foot .slot1 .m_area input[type=email]{
+    border-radius:20px;
+    padding:5px 0px 5px 20px;
+    width:190px;
+    background-color:#181c3c;
+    border:none;
+    color:rgb(178, 204, 224);
+    outline: none;
+}
+/* #foot .slot1 .m_area input:focus{
+    outline: none;
+} */
+#foot .slot1 .m_area input::placeholder{
+    /* font-weight:bold; */
+    color:rgba(255, 255, 255, 0.581);
+}
+#foot .slot1 .m_area button{
+    padding:8px 25px;
+    font-size:10px;
+    font-weight:bold;
+    position:absolute;
+    top:5px;
+    left:65%;
+    border-radius:20px;
+    border:none;
+    background-color:#9894dc;
+    color:white;
+}
+#foot .slot1 .m_area button:hover{
+    background-color:#9894dcc1;
 }
